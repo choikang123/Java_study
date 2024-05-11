@@ -8,7 +8,7 @@ public class AccessData {
     public void publicMethod() {
         System.out.println("public함수호출 "+publicField);
     }
-
+    ///
     void defaultMethod() {
         System.out.println("default함수호출 " + defaultField);
     }
