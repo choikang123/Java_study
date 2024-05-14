@@ -3,17 +3,19 @@ package access.ex;
 public class MaxCounter {
     private int count=0;
     private int max;
-
+    // 다른 패키지에서도 쓸 수 있도록 public
     public MaxCounter(int max) {
         this.max = max;
     }
 
     void increment() {
-        if (count < max) {
-            count += 1;
-        } else {
-            System.out.println("최대값 넘음");
+        // 검증로직
+        if (count>=max) {
+            System.out.println("최대값 초과 불가능");
+            return;
         }
+        count++;
+        // 실행로직
     }
 
     public int gerCount() {
