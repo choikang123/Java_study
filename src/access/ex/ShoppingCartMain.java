@@ -1,4 +1,4 @@
-package access.ex;
+package src.access.ex;
 
 public class ShoppingCartMain {
     public static void main(String[] args) {

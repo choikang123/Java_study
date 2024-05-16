@@ -1,4 +1,4 @@
-package access;
+package src.access;
 
 public class SpeakerMain {
     public static void main(String[] args) {

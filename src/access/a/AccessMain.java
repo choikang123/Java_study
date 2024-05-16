@@ -1,4 +1,4 @@
-package access.a;
+package src.access.a;
 
 public class AccessMain {
     public static void main(String[] args) {

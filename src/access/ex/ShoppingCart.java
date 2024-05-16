@@ -1,4 +1,4 @@
-package access.ex;
+package src.access.ex;
 
 public class ShoppingCart {
     Item[] items = new Item[10];
