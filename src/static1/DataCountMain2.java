@@ -10,6 +10,8 @@ public class DataCountMain2 {
         Data2 data3 = new Data2("c", counter);
         System.out.println("a count=" + counter.count);
         // 브랜치 테스트 메인 커밋
+        // 브랜치 branch 테스트
+
     }
 }
 
