@@ -9,7 +9,7 @@ public class DataCountMain2 {
         System.out.println("a count=" + counter.count);
         Data2 data3 = new Data2("c", counter);
         System.out.println("a count=" + counter.count);
-
+        // 브랜치 테스트 메인 커밋
     }
 }
 
